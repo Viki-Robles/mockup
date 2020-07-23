@@ -16,7 +16,7 @@ export default function Container() {
                     </div>
                 </div>
                 <div className="container-box-one-small">
-                    <h5 className="container-box-one-small-title">Welcome to Grip Virtual. Please log in below to get started.</h5>
+                    <h5>Welcome to Grip Virtual. Please log in below to get started.</h5>
                     <button>Login</button>
                 </div>
             </div>

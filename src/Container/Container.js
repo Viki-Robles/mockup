@@ -9,15 +9,21 @@ export default function Container() {
             <div className="container-box-one">
                 <div className="container-box-one-big">
                     <img src={picturesmall} alt="" className="small-picture" />
-                    <h2 className="container-box-one-big-title">Grip Virtual</h2>
+                    <div className="container-box-text">
+                        <h2 className="container-box-title">GRIP</h2>
+                        <br/>
+                        <h2 className="container-box-title-second">VIRTUAL</h2>
+                    </div>
                 </div>
                 <div className="container-box-one-small">
-                    <h2 className="container-box-one-small-title">Welcome to Grip Virtual. Please log in below to get started.</h2>
-                    <button>Log in</button>
+                    <h5 className="container-box-one-small-title">Welcome to Grip Virtual. Please log in below to get started.</h5>
+                    <button>Login</button>
                 </div>
             </div>
-            <div clasName="container-box-two">
+            <div className="container-box-two">
                 <img src={mockuppicture} alt="" className="big-picture" />
+                <h6>Take the work out of networking. Meet the right people for your business needs with our<br/>intelligent matchmaking technology.</h6>
+                <h5 className="container-second-box-title">Log in -70% od thiose who did said that they made a connection they would not <br/>have made otherwise.</h5>
             </div>
         </div>
     );

@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-box-one-big {
+    display: flex;
+}
+
+.big-picture img {
+    width: 100%;
+}
+
+.container-box-one-big-title {
+    margin-top: 20%;
+}

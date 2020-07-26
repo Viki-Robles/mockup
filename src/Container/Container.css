@@ -67,14 +67,12 @@ h6 {
   color: #5a5959;
 }
 
-.container-box-two {
-  margin-top: 40px;
-}
 .container-second-box-title {
   text-align: center;
 }
 .container-box-two {
   background-color: #f8f8f8;
+  margin-top: 40px;
 }
 @media (min-width: 600px) {
   .container {
@@ -87,12 +85,14 @@ h6 {
     grid-template-columns: 1fr 1fr;
   }
 
+  .container-box-two {
+    margin-top: 0;
+  }
   .container-box-one {
     padding: 40px;
     width: 80%;
     margin-top: 20%;
   }
-
   .container-box-one-small {
     padding-left: 50px;
   }
